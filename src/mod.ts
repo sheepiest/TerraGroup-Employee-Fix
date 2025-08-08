@@ -18,7 +18,7 @@ class Mod implements IPostDBLoadMod
         tables.templates.quests["5edac63b930f5454f51e128b"].conditions.AvailableForStart.splice(1,2);
 
         // Same but for Swift One
-        tables.templates.quests["60e729cf5698ee7b05057439"].conditions.AvailableForStart.splice(1,2);
+        tables.templates.quests["60e729cf5698ee7b05057439"].conditions.AvailableForStart.splice(0);
     
         // And finally for The Huntsman Path - Relentless
         tables.templates.quests["60e71e8ed54b755a3b53eb67"].conditions.AvailableForStart.splice(5);
